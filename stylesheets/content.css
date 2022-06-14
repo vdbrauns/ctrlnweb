@@ -34,10 +34,11 @@
 {
   position: absolute;
   width: 100vw;
-  height: 100vh;
+  height: auto;
   display: grid;
   grid-template-columns: repeat(42,3%);
   grid-template-rows: repeat(200, 2%);
+	overflow-x: hidden;
 }
 
 .frame
